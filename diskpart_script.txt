@@ -1,0 +1,9 @@
+select disk 0
+
+create partition primary size=40000
+assign
+
+create partition primary
+assign
+
+exit

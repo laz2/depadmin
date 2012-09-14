@@ -1,0 +1,74 @@
+	Вставка по правой клавише мыши в консоле.
+	
+
+c:\Program Files\Машина Тьюринга\tips.dat
+write
+
+c:\Program Files\UNN\Flowcharts\
+change
+
+c:\Program Files\MapInfo\MB_Coder\mbCoder.ini
+write
+
+c:\Program Files\MapInfo\MB_Coder\mbCoder.dic
+write
+
+
+c:\Documents and Settings\All Users\Application Data\Mozilla\Firefox\Student\prefs.js
+c:\Documents and Settings\All Users\Application Data\Mozilla\Firefox\Student\extensions
+c:\Documents and Settings\All Users\Application Data\Mozilla\Firefox\Student\extensions.ini
+Allow Read
+Deny Delete
+
+c:\Documents and Settings\All Users\Application Data
+c:\Documents and Settings\All Users\Documents
+c:\Documents and Settings\All Users\Start Menu
+c:\Documents and Settings\All Users\Templates
+Allow Read
+
+c:\Documents and Settings\student.IIT
+Allow Read
+
+c:\Documents and Settings\student.IIT\.designer
+c:\Documents and Settings\student.IIT\.eclipse
+c:\Documents and Settings\student.IIT\.netbeans
+Allow Change, Delete subs
+Deny Delete only for this
+
+c:\Documents and Settings\student\.netbeans\7.0\apache-tomcat-7.0.14.0_base\webapps\axis2.war
+Deny Delete
+
+c:\Documents and Settings\student\Application Data
+Allow Change
+Deny Delete only for this
+
+c:\Documents and Settings\student\Application Data\Microsoft\Internet Explorer\Quick Launch
+Allow Read
+Deny Delete only for this
+
+c:\Documents and Settings\student\Cookies
+Allow Change
+Deny Delete only for this
+
+c:\Documents and Settings\student\IETldCache
+Deny Delete only for this
+
+c:\Documents and Settings\student\Local Settings\Application Data
+Allow Change
+Deny Delete only for this
+
+c:\Documents and Settings\student\Local Settings\Apps
+Allow Change
+Deny Delete only for this
+
+c:\Documents and Settings\student\Local Settings\Temp
+Allow Change
+Deny Delete only for this
+
+c:\Documents and Settings\student\Local Settings\Temporary Internet Files
+Allow Change
+Deny Delete only for this
+
+c:\Documents and Settings\student\My Documents
+Allow Change
+Deny Delete only for this

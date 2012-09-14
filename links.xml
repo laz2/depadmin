@@ -1,0 +1,230 @@
+<root>
+	<folder path="c:\Documents and Settings\All Users\Start Menu" clean="true">
+		<link name="Notepad++">
+			<target>%TOOLS_DIR%\Notepad++\notepad++.exe</target>
+		</link>
+
+		<link name="Mozilla Firefox">
+			<target>%PROGRAMFILES%\Mozilla Firefox\Firefox.exe</target>
+		</link>
+
+		<link name="Total Commander">
+			<target>%PROGRAMFILES%\Total Commander\Totalcmd.exe</target>
+		</link>
+
+		<folder name="Microsoft Office">
+			<link name="Microsoft Word 2007">
+				<target>%PROGRAMFILES%\Microsoft Office\OFFICE12\WINWORD.EXE</target>
+			</link>
+
+			<link name="Microsoft Excel 2007">
+				<target>%PROGRAMFILES%\Microsoft Office\OFFICE12\EXCEL.EXE</target>
+			</link>
+
+			<link name="Microsoft PowerPoint 2007">
+				<target>%PROGRAMFILES%\Microsoft Office\OFFICE12\POWERPNT.EXE</target>
+			</link>
+		</folder>
+
+		<link name="Lingvo">
+			<target>%PROGRAMFILES%\ABBYY Lingvo 12\Lingvo.exe</target>
+		</link>
+
+		<folder name="Microsoft Visual Studio">
+			<link name="Microsoft Visual Studio 2008">
+				<target>%PROGRAMFILES%\Microsoft Visual Studio 9.0\Common7\IDE\devenv.exe</target>
+			</link>
+
+			<link name="Microsoft Visual Studio 2010">
+				<target>%PROGRAMFILES%\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe</target>
+			</link>
+
+			<link name="MSDN Library for Visual Studio 2008 - ENU">
+				<target>%PROGRAMFILES%\Common Files\Microsoft Shared\Help 9\dexplore.exe</target>
+				<args>/helpcol ms-help://MS.MSDNQTR.v90.en /LaunchNamedUrlTopic DefaultPage</args>
+				<workingFolder></workingFolder>
+			</link>
+		</folder>
+
+		<link name="Eclipse">
+			<target>%PROGRAMFILES%\eclipse\eclipse.exe</target>
+		</link>
+
+		<link name="NetBeans">
+			<target>%PROGRAMFILES%\NetBeans 7.0.1\bin\netbeans.exe</target>
+		</link>
+
+		<folder name="Qt">
+			<link name="Qt Creator">
+				<target>%TOOLS_DIR%\QtSDK\QtCreator\bin\qtcreator.exe</target>
+			</link>
+
+			<link name="Qt Command Promt MINGW">
+				<target>cmd.exe</target>
+				<workingFolder>%TOOLS_DIR%\QtSDK\Desktop\Qt\4.7.4\mingw\bin</workingFolder>
+				<args>/K %TOOLS_DIR%\QtSDK\Desktop\Qt\4.7.4\mingw\bin\qtenv2.bat</args>
+			</link>
+
+			<link name="Qt Command Promt MSVC2008">
+				<target>cmd.exe</target>
+				<workingFolder>%TOOLS_DIR%\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin</workingFolder>
+				<args>/K %TOOLS_DIR%\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\qtenv2.bat</args>
+			</link>
+		</folder>
+
+		<link name="Microsoft Visio 2007">
+			<target>%PROGRAMFILES%\Microsoft Office\OFFICE12\VISIO.EXE</target>
+		</link>
+
+		<link name="Enterprise Architect">
+			<target>%PROGRAMFILES%\Sparx Systems\EA\EA.exe</target>
+		</link>
+
+		<link name="CMake (cmake-gui)">
+			<target>%PROGRAMFILES%\CMake\bin\cmake-gui.exe</target>
+		</link>
+
+		<link name="Doxygen Wizard">
+			<target>%PROGRAMFILES%\doxygen\bin\doxywizard.exe</target>
+		</link>
+
+		<link name="VMware Player">
+			<target>%PROGRAMFILES%\VMware\VMware Player\vmplayer.exe</target>
+		</link>
+
+		<link name="Sound Forge">
+			<target>%PROGRAMFILES%\Sonic Foundry\Sound Forge 6.0\forge60.exe</target>
+		</link>
+
+		<folder name="Статистические пакеты">
+			<link name="Statistica">
+				<target>%PROGRAMFILES%\StatSoft\STATISTICA 6\statist.exe</target>
+			</link>
+
+			<link name="SPSS 10.0 for Windows">
+				<target>%PROGRAMFILES%\SPSS\spsswin.exe</target>
+			</link>
+
+			<link name="SPSS Map Geodictionary Manager">
+				<target>%PROGRAMFILES%\SPSS\geodictionarymanager40.exe</target>
+			</link>
+
+			<link name="SPSS Map Geoset Manager">
+				<target>%PROGRAMFILES%\SPSS\geosetmanager40.exe</target>
+			</link>
+		</folder>
+
+		<folder name="Геоинформационные системы">
+			<link name="MapInfo">
+				<target>%PROGRAMFILES%\MapInfo\Professional\Mapinfow.exe</target>
+			</link>
+
+			<link name="MapBasic">
+				<target>%PROGRAMFILES%\MapInfo\mapbasic\Mapbasic.exe</target>
+			</link>
+
+			<link name="MapBasic Coder">
+				<target>%PROGRAMFILES%\MapInfo\MB_Coder\mbCoder.exe</target>
+			</link>
+
+			<link name="Geographic Transformer">
+				<target>%PROGRAMFILES%\Blue Marble Geo\Geographic Transformer\geotrans.exe</target>
+			</link>
+		</folder>
+
+		<folder name="Математические пакеты">
+			<link name="MATLAB">
+				<target>%PROGRAMFILES%\MATLAB\R2011b\bin\win32\MATLAB.exe</target>
+			</link>
+
+			<link name="Mathematica">
+				<target>%PROGRAMFILES%\Wolfram Research\Mathematica\8.0\Mathematica.exe</target>
+			</link>
+		</folder>
+
+		<folder name="Учебная практика">
+			<link name="Просмотр блоксхем">
+				<target>%PROGRAMFILES%\UNN\Flowcharts\Viewer.exe</target>
+			</link>
+
+			<link name="Редактор блоксхем">
+				<target>%PROGRAMFILES%\UNN\Flowcharts\Editor.exe</target>
+			</link>
+
+			<link name="Машина Тьюринга">
+				<target>%PROGRAMFILES%\Машина Тьюринга\Turing.exe</target>
+			</link>
+		</folder>
+
+		<link name="KBE">
+			<target>%TOOLS_DIR%\kbe\kbe.exe</target>
+		</link>
+
+		<folder name="Programs">
+			<folder name="Startup">
+				<link name="lswitch">
+					<target>%TOOLS_DIR%\lswitch.exe</target>
+					<args>0x20</args>
+				</link>
+
+				<link name="Total Commander">
+					<target>%PROGRAMFILES%\Total Commander\Totalcmd.exe</target>
+				</link>
+			</folder>
+		</folder>
+	</folder>
+
+	<folder path="c:\Documents and Settings\root\Application Data\Microsoft" clean="false">
+		<folder name="Internet Explorer">
+			<folder name="Quick Launch">
+				<link name="Notepad++">
+					<target>%TOOLS_DIR%\Notepad++\notepad++.exe</target>
+				</link>
+
+				<link name="Mozilla Firefox">
+					<target>%PROGRAMFILES%\Mozilla Firefox\Firefox.exe</target>
+				</link>
+
+				<link name="Total Commander">
+					<target>%PROGRAMFILES%\Total Commander\Totalcmd.exe</target>
+				</link>
+			</folder>
+		</folder>
+	</folder>
+
+	<folder path="c:\Documents and Settings\student\Application Data\Microsoft" clean="false">
+		<folder name="Internet Explorer">
+			<folder name="Quick Launch">
+				<link name="Notepad++">
+					<target>%TOOLS_DIR%\Notepad++\notepad++.exe</target>
+				</link>
+
+				<link name="Mozilla Firefox">
+					<target>%PROGRAMFILES%\Mozilla Firefox\Firefox.exe</target>
+				</link>
+
+				<link name="Total Commander">
+					<target>%PROGRAMFILES%\Total Commander\Totalcmd.exe</target>
+				</link>
+			</folder>
+		</folder>
+	</folder>
+
+	<folder path="c:\Documents and Settings\student.IIT\Application Data\Microsoft" clean="false">
+		<folder name="Internet Explorer">
+			<folder name="Quick Launch">
+				<link name="Notepad++">
+					<target>%TOOLS_DIR%\Notepad++\notepad++.exe</target>
+				</link>
+
+				<link name="Mozilla Firefox">
+					<target>%PROGRAMFILES%\Mozilla Firefox\Firefox.exe</target>
+				</link>
+
+				<link name="Total Commander">
+					<target>%PROGRAMFILES%\Total Commander\Totalcmd.exe</target>
+				</link>
+			</folder>
+		</folder>
+	</folder>
+</root>
